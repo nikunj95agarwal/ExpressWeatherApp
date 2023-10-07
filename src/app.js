@@ -25,6 +25,6 @@ app.get('/Weather', (req,res)=>{
 app.get("*", (req,res)=>{
     res.send("404 Page does not exsist")
 })
-app.listen(port, "127.0.0.1" , ()=>{
+app.listen(port , ()=>{
     console.log("success!");
 })
