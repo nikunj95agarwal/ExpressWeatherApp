@@ -1,0 +1,121 @@
+
+html {
+    font-size: 62.5%;
+}
+.preloader {
+    background-color: rgba(32,21,148,255);
+    background-image: url("https://cdn.dribbble.com/users/162970/screenshots/6456084/casual-bounce.gif");
+    width: 100vw; 
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 9999;
+    padding: 0;
+}
+
+
+body {
+    font-size: 1.6rem; 
+    margin: 0; 
+    background: url(https://media.tenor.com/kKmvIr30vQYAAAAj/stars-changing-colors.gif);
+}
+
+/* Navigation bar styles */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(99, 99, 167);
+    font-size: 2rem;
+    color: white;
+    padding: 1.0rem 2.0rem;
+    
+}
+
+.nav_left {
+    display: flex; 
+    align-items: center; 
+    margin-right: 1.0rem; 
+}
+
+.nav_right {
+    display: flex; 
+    margin-right: 10rem;
+}
+
+button {    background-color: rgb(99, 99, 167);
+
+    font-size: 2.2rem;
+    /* background-color: transparent; */
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    margin-left: 1.0rem; /* Add spacing between buttons */
+    color: white; /* Button text color */
+    padding: .5rem 1.5rem; /* Adjust button padding */
+    cursor: pointer;
+}
+
+
+button:hover{
+    background:url(https://i.gifer.com/2ii5.gif) ;
+    background-color: black;
+    border-color: red;
+    transition: border 1s;
+}
+
+/* Main content styles */
+.body1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* Footer styles */
+footer {
+    background-color: rgb(99, 99, 167);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+/* Your existing styles */
+
+/* Stylish font for "Meet Nikunj Agarwal" */
+h1 {
+    font-size: 3rem;
+    font-family: 'Your-Stylish-Font', sans-serif; /* Replace 'Your-Stylish-Font' with the font you want to use */
+}
+
+/* Add transition to the image */
+.IMG1 {
+    height: 40rem;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    box-shadow: 0 0.2rem 1rem 1rem rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Scale the image on hover */
+.IMG1:hover {
+    transform: scale(1.1); /* Increase the scale on hover (adjust as needed) */
+}
+
+/* Your existing styles */
