@@ -7,17 +7,6 @@
     <link rel="stylesheet" href="css/weather.css"> <!-- Link to your external CSS file -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-{{!-- <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const preloader = document.querySelector('.preloader');
-
-        setTimeout(function () {
-            preloader.style.display = 'none';
-            console.log("preloader loaded ");
-
-        }, 1500);
-    });
-</script> --}}
 
 <body>
     <nav>
@@ -32,16 +21,25 @@
             <a href="/about"><button>ABOUT</button></a> 
         </div>
     </nav>
-    <br><br><br>
-    <div class="body1">
-        <div class="content">
-            {{!-- <img  src="https://imageupload.io/ib/YhttobxFN1MgPLU_1696668964.jpg" alt="NIKUNJ.jpg"/> --}}
+    <div class="weather-card">
+        <div class="weather-header">
+            <h2 id="cityName">City Name</h2>
+            <input type="text" id="searchInput" placeholder="Search for a city">
+            <button id="searchButton">Search</button>
         </div>
-    </div><br>
-    <!-- <br><br><br><br> -->
-    <!-- <br><br><br><br> -->
-    <!-- <br><br><br><br> -->
+        <div class="weather-body">
+            <div class="weather-icon">
+                <!-- Weather Icon Here -->
+            </div>
+            <div class="weather-details">
+                <p id="temperature">Temperature: 25°C</p>
+                <p id="humidity">Humidity: 70%</p>
+                <p id="windSpeed">Wind Speed: 10 km/h</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/weather.js"></script>
     <footer>Made with <i class="fa-solid fa-heart"></i> By NIKUNJ</footer>
 </body>
-<div class="preloader"></div> <!-- Move this div outside the body -->
 </html>
