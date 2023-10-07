@@ -24,7 +24,6 @@ body {color: wheat;
     background: url(https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif);
 }
 
-/* Navigation bar styles */
 nav {
     position: fixed;
     top: 0;
@@ -56,9 +55,9 @@ button {
     background-color: transparent;
     border: 0.2rem solid white;
     border-radius: 1rem;
-    margin-left: 1.0rem; /* Add spacing between buttons */
-    color: white; /* Button text color */
-    padding: .5rem 1.5rem; /* Adjust button padding */
+    margin-left: 1.0rem; 
+    color: white; 
+    padding: .5rem 1.5rem;
     cursor: pointer;
 }
 
@@ -70,7 +69,6 @@ button:hover{
     transition: border 1s;
 }
 
-/* Main content styles */
 .body1 {
     display: flex;
     justify-content: center;
@@ -88,7 +86,6 @@ button:hover{
 
 
 
-/* Footer styles */
 footer {
     background-color: rgb(99, 99, 167);
     color: white;
@@ -96,15 +93,12 @@ footer {
     padding: 10px;
     font-size: 1.4rem;
 }
-/* Your existing styles */
 
-/* Stylish font for "Meet Nikunj Agarwal" */
 h1 {
     font-size: 3rem;
     font-family: 'Your-Stylish-Font', sans-serif; /* Replace 'Your-Stylish-Font' with the font you want to use */
 }
 
-/* Add transition to the image */
 .IMG1 {
     height: 40rem;
     margin-top: 2rem;
@@ -113,9 +107,7 @@ h1 {
     transition: transform 0.3s ease; 
 }
 
-/* Scale the image on hover */
-.IMG1:hover {
-    transform: scale(1.1); /* Increase the scale on hover (adjust as needed) */
-}
 
-/* Your existing styles */
+.IMG1:hover {
+    transform: scale(1.1); 
+}
