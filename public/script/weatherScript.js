@@ -13,10 +13,10 @@ const getInfo = async (event) => {
       const response = await fetch(url);
       const data = await response.json();
       console.log(data);
-
+// const cloud = <i class="fa-solid fa-cloud"></i>
       if (data.cod === 200) {
-        temperature.innerText = `${data.main.temp}`;
-        cityName.innerText = data.name;
+        temperature.innerText = `Temperature: ${((data.main.temp)/10).toFixed(2)} °C`;
+        cityName.innerText = `${data.name} `;
       } else {
         // Handle API errors
         cityName.innerText = "WEATHER";

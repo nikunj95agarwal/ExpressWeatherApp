@@ -1,7 +1,7 @@
 const express = require('express');
 const app =express();
 const path =require('path');
-const port = process.env.PORT||8000;
+const port = process.env.PORT||9000;
 const staticPath = path.join(__dirname,"../public");
 app.set('view engine', 'hbs');
 app.use(express.static(staticPath));
@@ -23,7 +23,7 @@ app.get('/Weather', (req,res)=>{
     console.log("Weather page is established");
 })
 app.get("*", (req,res)=>{
-    res.send('error.hbs')
+    res.render('error.hbs')
 })
 app.listen(port , ()=>{
     console.log("success!");

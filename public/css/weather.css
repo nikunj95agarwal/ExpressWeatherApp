@@ -145,11 +145,16 @@ h1 {
 }
 
 input[type="text"] {
+    background-color: rgb(72, 101, 186);
     padding: 0.3rem;
+    padding-left: 1rem;
     border: .1rem solid #ccc;
-    border-radius: 0.5rem;
+    border-radius: 5rem;
+    height: 4rem;
+    width: 25rem;
+    color: yellow;
+    
 }
-
 #searchButton {
     background-color: #333;
     color: white;
@@ -157,7 +162,10 @@ input[type="text"] {
     border-radius: 0.5rem;
     padding: 0.3rem 0.5rem;
     cursor: pointer;
+    background: url(https://cutewallpaper.org/25/animated-wallpaper-gif-chage-color/colorful-background-gifs-tenor.gif);
+    ;
 }
+
 
 /* Style the weather icon if you are using a font-based icon library */
 
