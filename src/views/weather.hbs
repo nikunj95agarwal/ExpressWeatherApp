@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <link rel="icon" type="image/x-icon" href="https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEATHER APP</title>
+    <title>CHECK WEATHER</title>
     <link rel="stylesheet" href="css/weather.css"> <!-- Link to your external CSS file -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+
     <nav>
         <div class="nav_left"><span>
             <i class="fa-solid fa-fan"></i>
@@ -21,9 +23,10 @@
             <a href="/about"><button>ABOUT</button></a> 
         </div>
     </nav>
+    <body>
     <div class="weather-card">
-        <div class="weather-header">
-            <h2 id="cityName">City Name</h2>
+        <div class="weather-header"><br>
+            <h2 id="cityName">WEATHER <i class="fa-solid fa-cloud-sun-rain"></i></i></h2>
             <input type="text" id="searchInput" placeholder="Search for a city">
             <button id="searchButton">Search</button>
         </div>
@@ -32,9 +35,7 @@
                 <!-- Weather Icon Here -->
             </div>
             <div class="weather-details">
-                <p id="temperature">Temperature: 25°C</p>
-                <p id="humidity">Humidity: 70%</p>
-                <p id="windSpeed">Wind Speed: 10 km/h</p>
+              Temperature:  <p id="temperature"></p>
             </div>
         </div>
     </div>
