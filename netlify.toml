@@ -1,8 +1,0 @@
-[[api.use['/.netlify/functions/', router];
-]]  external_node_modules = ["express"]
-  node_bundler = "esbuild"
-[[api.use['/api/', router];]]
-  force = true
-  from = "/api/*"
-  status = 200
-  to = "/.netlify/functions/api/:splat";
